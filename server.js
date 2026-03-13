@@ -1,7 +1,7 @@
 const http = require('http');
 const os = require('os');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const WS_ENABLED = process.env.WS_ENABLED === 'true';
 
 // Simple HTTP server
