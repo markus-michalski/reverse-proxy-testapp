@@ -1,0 +1,13 @@
+{
+  "name": "reverse-proxy-testapp",
+  "version": "1.0.0",
+  "description": "Minimal test app for server-tools reverse proxy feature",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:ws": "WS_ENABLED=true node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
